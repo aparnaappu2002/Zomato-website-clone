@@ -67,25 +67,36 @@ nav.ul{
    align-items: center;
 
 }
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 div.header-body{
    position: absolute;
-   top: 0;
+   top: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   
 
 }
 div.header-body img {
     position: absolute;
-    
+    align-items: center;
     margin-top: 180px;
-   left: 800px;
+   left: 180px;
    object-fit: contain;
    width: 300px;
+   justify-content: center;
 
 }
 .header-body p{
     align-items: center;
     position: relative;
-    top: 230px;
-    left: 600px;
+    top: 180px;
+    left: 50px;
     color: white;
     font-size: 2.3rem;
     font-weight: 400;
@@ -96,8 +107,8 @@ div.header-body img {
     background-color: white;
     width: 720px;
     height: 50px;
-    top: -242px;
-    left: 550px;
+    top: -220px;
+    left: 50px;
     position: relative;
     border: none;
     border-radius: 0.8rem;
