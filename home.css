@@ -126,6 +126,7 @@ div.search-bar svg{
     
 }
 div.location-container{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -134,6 +135,11 @@ div.location-container{
     height: 1.5rem;
     border: 0.05rem solid rgb(207, 207, 207);
    margin: 7px;
+}
+div.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div.search-container input{
     width: 400px;
